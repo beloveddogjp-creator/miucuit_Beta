@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>企業情報 - 株式会社ミユキット</title>
+    <meta name="description" content="株式会社ミユキットの企業情報。1982年創業、神戸市須磨区を拠点とする「美幸商店」から始まり、文具とITでオフィスの課題を解決します。">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Noto+Sans+JP:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <style>
+        /* Shared Subpage Header */
+        .subpage-header {
+            padding: 12rem 0 6rem;
+            background-color: var(--bg-light-gray);
+            text-align: center;
+        }
+        .profile-table {
+            width: 100%;
+            max-width: 800px;
+            margin: 4rem auto;
+            border-collapse: collapse;
+            background: #fff;
+            box-shadow: var(--shadow-soft);
+            border-radius: var(--border-radius-md);
+            overflow: hidden;
+        }
+        .profile-table th, .profile-table td {
+            padding: 1.5rem;
+            border-bottom: 1px solid var(--bg-light-gray);
+            text-align: left;
+        }
+        .profile-table th {
+            width: 30%;
+            background-color: #faf9f6;
+            color: var(--primary-text);
+            font-weight: 700;
+        }
+        .profile-table tr:last-child th, .profile-table tr:last-child td {
+            border-bottom: none;
+        }
+    </style>
+</head>
+<body>
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo"><img src="miucuit_logo.png" alt="ミユキット ロゴ"></a>
+            
+            <div class="menu-toggle" id="mobile-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <nav class="nav-links" id="nav-links">
+                <a href="index.html">Home<span class="en">HOME</span></a>
+                <a href="about.html" style="color: var(--accent-orange);">About<span class="en">企業について</span></a>
+                <a href="service.html">IT & Services<span class="en">システム・IT基盤</span></a>
+                
+                <div class="has-dropdown">
+                    <span class="nav-item-title">Creative<span class="en">コンテンツ制作</span></span>
+                    <div class="dropdown-menu">
+                        <a href="service.html#web">WEBサイト・グラフィック制作</a>
+                        <a href="video.html">成果の出る動画・映像制作</a>
+                    </div>
+                </div>
+
+                <a href="products.html">Products<span class="en">取扱商品一覧</span></a>
+                <a href="store.html">Store<span class="en">実店舗（美幸商店）</span></a>
+                <a href="index.html#contact" class="nav-contact-btn">お問い合わせ</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="subpage-header">
+        <div class="container fade-up">
+            <span class="section-tag">About Company</span>
+            <h1 class="section-title">企業情報</h1>
+            <p class="section-subtitle">文具×IT。「古くても新しい」サポートを神戸から。</p>
+        </div>
+    </div>
+
+    <section class="about-section pt-0">
+        <div class="container fade-up delay-1">
+            <div style="max-width: 800px; margin: 0 auto 4rem; text-align: center;">
+                <h2 style="font-size: 1.8rem; color: var(--accent-orange); margin-bottom: 1rem;"><span class="inline-block-text">古くても新しい、</span><br><span class="inline-block-text">ミユキットのハイブリッドサポート</span></h2>
+                <p style="color: var(--secondary-text); line-height: 1.8; text-align: left;">
+                    私たちは「文具×IT」という独自のコンセプトのもと、オフィスの課題解決に取り組んでいます。<br>
+                    1982年から続く美幸商店としての地域密着の顔（古さ）と、クラウドやネットワークセキュリティ等の最新IT技術の構築（新しさ）を掛け合わせることで、お客様にとって「いちばん相談しやすいITパートナー」であることを目指しています。<br>
+                    <br>
+                    最新のシステムを導入するだけでなく、時には手書きの温かさが伝わる文房具をご提案する。アナログとデジタルの双方を知り尽くしているからこそできる、血の通ったサポートをお約束します。
+                </p>
+            </div>
+
+            <table class="profile-table">
+                <tbody>
+                    <tr>
+                        <th>会社名</th>
+                        <td>株式会社ミユキット</td>
+                    </tr>
+                    <tr>
+                        <th>店舗名</th>
+                        <td>美幸商店（本社1階にて営業）</td>
+                    </tr>
+                    <tr>
+                        <th>創業</th>
+                        <td>1982年（美幸商店として）</td>
+                    </tr>
+                    <tr>
+                        <th>設立</th>
+                        <td>2018年（法人化）</td>
+                    </tr>
+                    <tr>
+                        <th>所在地</th>
+                        <td>
+                            【本社・美幸商店】<br>
+                            〒654-0028 兵庫県神戸市須磨区常盤町2丁目4-15<br><br>
+                            【サテライトオフィス（C.Lab）】<br>
+                            〒651-0085 神戸市中央区八幡通4-1-14 B&Lビル3F
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>連絡先</th>
+                        <td>TEL: 078-733-5369<br>FAX: 078-731-7434<br>Email: info@miucuit.jp</td>
+                    </tr>
+                    <tr>
+                        <th>営業時間</th>
+                        <td>9:00 - 17:30 （店舗営業時間は9:00 - 18:00）<br>※定休日：土・日・祝日</td>
+                    </tr>
+                    <tr>
+                        <th>事業内容</th>
+                        <td>
+                            ・各種ITソリューション（ネットワーク・サーバー・PC・クラウド）<br>
+                            ・コンテンツ制作（WEBサイト・映像・グラフィック・資料）<br>
+                            ・OA機器販売、オフィス家具・レイアウト提案<br>
+                            ・事務用品販売（実店舗・アスクル正規取扱店）
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container center">
+            <h2 class="footer-logo">MIUCUIT Co., Ltd.</h2>
+            <p class="footer-address">〒654-0028 兵庫県神戸市須磨区常盤町2丁目4-15</p>
+            <p class="copyright">&copy; 2026 Miucuit Co., Ltd. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const mobileMenu = document.getElementById('mobile-menu');
+            const navLinks = document.getElementById('nav-links');
+            
+            if (mobileMenu && navLinks) {
+                mobileMenu.addEventListener('click', () => {
+                    mobileMenu.classList.toggle('active');
+                    navLinks.classList.toggle('active');
+                });
+            }
+
+            const dropdowns = document.querySelectorAll('.has-dropdown');
+            dropdowns.forEach(dropdown => {
+                dropdown.addEventListener('click', (e) => {
+                    if (window.innerWidth <= 900) {
+                        dropdown.classList.toggle('active');
+                    }
+                });
+            });
+
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('is-visible');
+                    }
+                });
+            }, {
+                threshold: 0.1,
+                rootMargin: "0px 0px -50px 0px"
+            });
+            document.querySelectorAll('.fade-up').forEach(el => observer.observe(el));
+        });
+    </script>
+</body>
+</html>
